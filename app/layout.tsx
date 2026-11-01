@@ -13,6 +13,9 @@ const questrial = Questrial({
 export const metadata: Metadata = {
   title: "CampusGO",
   description: "Find College and Uni's Bus's live location and time table",
+  icons:{
+    icon:"/BMS_favicon.svg"
+  }
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
